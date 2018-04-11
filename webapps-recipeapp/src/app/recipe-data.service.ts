@@ -19,6 +19,6 @@ private _recipes = new Array<Recipe>();
    }
 
    addNewRecipe(recipe){
-     this._recipes.push(recipe);
+     this._recipes = [...this._recipes, recipe];
    }
 }

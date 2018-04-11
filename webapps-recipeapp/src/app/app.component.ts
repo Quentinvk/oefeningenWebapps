@@ -23,4 +23,5 @@ export class AppComponent {
   applyFilter(filter: string){
     this.filterRecipeName = filter;
   }
+  
 }
